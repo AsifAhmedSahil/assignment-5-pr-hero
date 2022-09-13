@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose Your Best Playerr</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div
+      class="w-full h-[620px] bg-cover bg-center bg-fixed"
+      style="
+        background-image: linear-gradient(
+            rgba(39, 35, 41, 0.9),
+            rgba(28, 22, 29, 0.9)
+          ),
+          url('images/main.jpg');
+      "
+    >
+      <div class="flex flex-col justify-center items-center w-screen h-[450px]">
+        <h1 class="text-8xl text-green-400 font-bold">Game changer!</h1>
+        <p class="text-orange-600 text-3xl font-bold mt-[50px] text-center">
+          Federation Internationale de Football Association (FIFA) organizes
+          Football World Cup every four years. <br />
+          Football teams from various countries participate in the world cup.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- -------------main section start--------------- -->
+    
+    <section class="w-10/12 mx-auto mt-10">
+      <div class="grid grid-cols-3 gap-16">
+        <div class="col-span-2">
+          <div class="grid grid-cols-3 gap-4 pb-20">
+
+            <!-- player - 1 -->
+
+            <div>
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/naymer.jpg"
+                    class="w-full h-80"
+                    alt="naymer jr"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white text-3xl">Naymer jr!</h2>
+                  <p class="text-xl text-center text-white mt-4">
+                    36 goals . 150 assets
+                  </p>
+                  <div class="card-actions justify-end">
+                    <button
+                      class="btn btn-primary w-full mt-8 text-xl"
+                      id="btn1"
+                      onclick="clicked(this)"
+                    >
+                      SELECT
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- player - 2 -->
+            <div>
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/Sergio Ramos.jpg"
+                    class="w-full h-80"
+                    alt="naymer jr"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white text-3xl">Sergio Ramos</h2>
+                  <p class="text-xl text-center text-white mt-4">
+                    36 goals . 150 assets
+                  </p>
+                  <div class="card-actions justify-end">
+                    <button
+                      class="btn btn-primary w-full mt-8 text-xl"
+                      id="btn2"
+                      onclick="clicked(this)"
+                    >
+                      SELECT
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- player - 3 -->
+            <div>
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/Renato Sanches.jpg"
+                    class="w-full h-80"
+                    alt="naymer jr"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white text-3xl">Renato Sanches</h2>
+                  <p class="text-xl text-center text-white mt-4">
+                    36 goals . 150 assets
+                  </p>
+                  <div class="card-actions justify-end">
+                    <button
+                      class="btn btn-primary text-xl w-full mt-8"
+                      onclick="clicked(this)"
+                    >
+                      SELECT
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- player - 4 -->
+            <div>
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/messi.jpg"
+                    class="w-full h-80"
+                    alt="naymer jr"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white text-3xl">Messi</h2>
+                  <p class="text-xl text-center text-white mt-4">
+                    36 goals . 150 assets
+                  </p>
+                  <div class="card-actions justify-end">
+                    <button
+                      class="btn btn-primary text-xl w-full mt-8"
+                      onclick="clicked(this)"
+                    >
+                      SELECT
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- player - 5 -->
+            <div>
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/mbappe.jpg"
+                    class="w-full h-80"
+                    alt="naymer jr"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white text-3xl">Kylian Mbappé</h2>
+                  <p class="text-xl text-center text-white mt-4">
+                    36 goals . 150 assets
+                  </p>
+                  <div class="card-actions justify-end">
+                    <button
+                      class="btn btn-primary text-xl w-full mt-8"
+                      onclick="clicked(this)"
+                    >
+                      SELECT
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- player - 6 -->
+            <div>
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/Bambang Pamungkas.jpg"
+                    class="w-full h-80"
+                    alt="naymer jr"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white text-3xl">Bambang</h2>
+                  <p class="text-xl text-center text-white mt-4">
+                    36 goals . 150 assets
+                  </p>
+                  <div class="card-actions justify-end">
+                    <button
+                      class="btn btn-primary text-xl w-full mt-8"
+                      onclick="clicked(this)"
+                    >
+                      SELECT
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ... -->
+          </div>
+        </div>
+        
+        <!-- select player -->
+
+        <div>
+          <div class="card w-96 h-[460px] bg-primary text-primary-content mb-8">
+            <div class="card-body">
+              <h2
+                class="card-title text-white flex justify-center text-5xl mb-4"
+              >
+                SELECTED - V
+              </h2>
+
+              <!-- table -->
+
+              <div class="overflow-x-auto">
+                <table class="table w-full">
+                  <!-- head -->
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th class="text-2xl">Name</th>
+                    </tr>
+                  </thead>
+
+                  <tbody id="card-players"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-calculate w-96 h-[600px] bg-primary mb-16">
+            <h2 class="text-white text-5xl font-bold pt-8 text-center">
+              Buggets
+            </h2>
+            <div class="flex mt-16 gap-4">
+              <p class="mx-8 text-xl text-white">Per Player</p>
+              <input class="p-2 text-black" id="per-player" type="number" />
+            </div>
+            <button
+              class="text-xl px-8 py-2 hover:bg-red-400 hover:text-white bg-white text-black flex mx-auto mt-8"
+              id="calculate"
+            >
+              Calculate
+            </button>
+
+            <p class="text-xl mt-4 mx-8 text-white">
+              Player Expenses $ <span id="player-cost-total">0</span>
+            </p>
+
+            <div class="flex mt-8 gap-4">
+              <p class="mx-8 text-xl text-white">Manager</p>
+              <input class="p-2 text-black" id="manager-cost" type="number" />
+            </div>
+
+            <div class="flex mt-8 gap-6">
+              <p class="mx-8 text-xl text-white">Coach</p>
+              <input
+                class="mx-4 p-2 text-black"
+                id="coach-cost"
+                type="number"
+              />
+            </div>
+
+            <button
+              class="text-xl px-8 py-2 hover:bg-red-400 hover:text-white bg-white text-black flex mx-auto mt-8"
+              id="calculate-total"
+            >
+              Calculate Total
+            </button>
+
+            <p class="text-white text-2xl flex justify-center mt-8">
+              Total Amount : <span class="text-orange-400"> $</span
+              ><span class="text-orange-400" id="total-amount">0</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
